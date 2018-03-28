@@ -1,0 +1,114 @@
+2018-03-27 22:21:27.831226: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-03-27 22:21:28.168658: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-03-27 22:21:28.169051: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:03:00.0
+totalMemory: 11.78GiB freeMemory: 10.73GiB
+2018-03-27 22:21:28.169072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN V, pci bus id: 0000:03:00.0, compute capability: 7.0)
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO: Checkpoint files saved in /tmp/tmpZhPAnw
+Current loss is 230.25.
+Current loss is 228.76.
+Current loss is 227.29.
+Current loss is 225.82.
+Current loss is 224.36.
+Current loss is 222.90.
+Current loss is 221.46.
+Current loss is 220.02.
+Current loss is 218.59.
+Current loss is 217.17.
+Current loss is 215.76.
+Current loss is 214.35.
+Current loss is 212.96.
+Current loss is 211.57.
+Current loss is 210.19.
+Current loss is 208.82.
+Current loss is 207.46.
+Current loss is 206.10.
+Current loss is 204.76.
+Current loss is 203.42.
+Current loss is 202.10.
+Current loss is 200.78.
+Current loss is 199.47.
+Current loss is 198.17.
+Current loss is 196.87.
+Current loss is 195.59.
+Current loss is 194.31.
+Current loss is 193.05.
+Current loss is 191.79.
+Current loss is 190.54.
+Current loss is 189.30.
+Current loss is 188.07.
+Current loss is 186.85.
+Current loss is 185.64.
+Current loss is 184.43.
+Current loss is 183.24.
+Current loss is 182.05.
+Current loss is 180.87.
+Current loss is 179.70.
+Current loss is 178.54.
+Current loss is 177.39.
+Current loss is 176.24.
+Current loss is 175.11.
+Current loss is 173.98.
+Current loss is 172.86.
+Current loss is 171.75.
+Current loss is 170.65.
+Current loss is 169.56.
+Current loss is 168.47.
+Current loss is 167.40.
+Current loss is 166.33.
+Current loss is 165.27.
+Current loss is 164.21.
+Current loss is 163.17.
+Current loss is 162.13.
+Current loss is 161.11.
+Current loss is 160.09.
+Current loss is 159.07.
+Current loss is 158.07.
+Current loss is 157.07.
+Current loss is 156.08.
+Current loss is 155.10.
+Current loss is 154.12.
+Current loss is 153.16.
+Current loss is 152.20.
+Current loss is 151.25.
+Current loss is 150.30.
+Current loss is 149.36.
+Current loss is 148.43.
+Current loss is 147.51.
+Current loss is 146.60.
+Current loss is 145.69.
+Current loss is 144.78.
+Current loss is 143.89.
+Current loss is 143.00.
+Current loss is 142.12.
+Current loss is 141.25.
+Current loss is 140.38.
+Current loss is 139.52.
+Current loss is 138.66.
+Current loss is 137.81.
+Current loss is 136.97.
+Current loss is 136.14.
+Current loss is 135.31.
+Current loss is 134.49.
+Current loss is 133.67.
+Current loss is 132.86.
+Current loss is 132.06.
+Current loss is 131.26.
+Current loss is 130.47.
+Current loss is 129.68.
+Current loss is 128.91.
+Current loss is 128.13.
+Current loss is 127.36.
+Current loss is 126.60.
+Current loss is 125.85.
+Current loss is 125.10.
+Current loss is 124.35.
+Current loss is 123.61.
+Current loss is 122.88.
+
+real	0m47.391s
+user	0m47.607s
+sys	0m2.644s
