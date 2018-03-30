@@ -15,6 +15,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 from __future__ import print_function
 
+import time
+
 import tensorflow as tf
 import tensorflow.contrib.eager as tfe
 
@@ -86,6 +88,8 @@ optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate)
 # Compute gradients
 grad = tfe.implicit_gradients(loss_fn)
 
+start = time.time()
+
 # Training
 average_loss = 0.
 average_acc = 0.
@@ -128,6 +132,9 @@ for step in range(num_steps):
               "{:.4f}".format(average_acc))
         average_loss = 0.
         average_acc = 0.
+
+end = time.time()
+print("Elapsed training time = ",end-start)
 
 # Evaluate model on the test image set
 testX = mnist.test.images

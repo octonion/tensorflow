@@ -16,6 +16,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 from __future__ import division, print_function, absolute_import
 
+import time
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -97,6 +99,8 @@ with tf.Session() as sess:
     # Run the initializer
     sess.run(init)
 
+    start = time.time()
+
     # Training
     for i in range(1, num_steps+1):
         # Prepare Data
@@ -108,6 +112,9 @@ with tf.Session() as sess:
         # Display logs per step
         if i % display_step == 0 or i == 1:
             print('Step %i: Minibatch Loss: %f' % (i, l))
+
+    end = time.time()
+    print("Elapsed training time = ",end-start)
 
     # Testing
     # Encode and decode images from test set and visualize their reconstruction.

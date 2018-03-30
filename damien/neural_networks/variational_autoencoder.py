@@ -22,6 +22,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 from __future__ import division, print_function, absolute_import
 
+import time
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
@@ -104,6 +106,8 @@ with tf.Session() as sess:
     # Run the initializer
     sess.run(init)
 
+    start = time.time()
+
     for i in range(1, num_steps+1):
         # Prepare Data
         # Get the next batch of MNIST data (only images are needed, not labels)
@@ -114,6 +118,9 @@ with tf.Session() as sess:
         _, l = sess.run([train_op, loss_op], feed_dict=feed_dict)
         if i % 1000 == 0 or i == 1:
             print('Step %i, Loss: %f' % (i, l))
+
+    end = time.time()
+    print("Elapsed training time = ",end-start)
 
     # Testing
     # Generator takes noise as input

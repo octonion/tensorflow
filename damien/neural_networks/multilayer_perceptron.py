@@ -20,6 +20,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 from __future__ import print_function
 
+import time
+
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
@@ -79,6 +81,8 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
     sess.run(init)
 
+    start = time.time()
+
     # Training cycle
     for epoch in range(training_epochs):
         avg_cost = 0.
@@ -94,7 +98,10 @@ with tf.Session() as sess:
         # Display logs per epoch step
         if epoch % display_step == 0:
             print("Epoch:", '%04d' % (epoch+1), "cost={:.9f}".format(avg_cost))
+
+    end = time.time()
     print("Optimization Finished!")
+    print("Elapsed training time = ",end-start)
 
     # Test model
     pred = tf.nn.softmax(logits)  # Apply softmax to logits

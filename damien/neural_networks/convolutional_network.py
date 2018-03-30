@@ -12,6 +12,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 from __future__ import division, print_function, absolute_import
 
+import time
+
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=False)
@@ -111,8 +113,14 @@ model = tf.estimator.Estimator(model_fn)
 input_fn = tf.estimator.inputs.numpy_input_fn(
     x={'images': mnist.train.images}, y=mnist.train.labels,
     batch_size=batch_size, num_epochs=None, shuffle=True)
+
+start = time.time()
+
 # Train the Model
 model.train(input_fn, steps=num_steps)
+
+end = time.time()
+print("Elapsed training time = ",end-start)
 
 # Evaluate the Model
 # Define the input function for evaluating

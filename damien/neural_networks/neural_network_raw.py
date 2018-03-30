@@ -13,6 +13,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 from __future__ import print_function
 
+import time
+
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
@@ -81,6 +83,8 @@ with tf.Session() as sess:
     # Run the initializer
     sess.run(init)
 
+    start = time.time()
+
     for step in range(1, num_steps+1):
         batch_x, batch_y = mnist.train.next_batch(batch_size)
         # Run optimization op (backprop)
@@ -93,7 +97,9 @@ with tf.Session() as sess:
                   "{:.4f}".format(loss) + ", Training Accuracy= " + \
                   "{:.3f}".format(acc))
 
+    end = time.time()
     print("Optimization Finished!")
+    print("Elapsed training time = ",end-start)
 
     # Calculate accuracy for MNIST test images
     print("Testing Accuracy:", \

@@ -21,6 +21,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 from __future__ import division, print_function, absolute_import
 
+import time
+
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
@@ -123,6 +125,8 @@ with tf.Session() as sess:
     # Run the initializer
     sess.run(init)
 
+    start = time.time()
+
     for i in range(1, num_steps+1):
         # Prepare Data
         # Get the next batch of MNIST data (only images are needed, not labels)
@@ -136,6 +140,9 @@ with tf.Session() as sess:
                                 feed_dict=feed_dict)
         if i % 1000 == 0 or i == 1:
             print('Step %i: Generator Loss: %f, Discriminator Loss: %f' % (i, gl, dl))
+
+    end = time.time()
+    print("Elapsed training time = ",end-start)
 
     # Generate images from noise, using the generator network.
     f, a = plt.subplots(4, 10, figsize=(10, 4))

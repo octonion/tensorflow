@@ -10,6 +10,8 @@ Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
 from __future__ import division, print_function, absolute_import
 
+import time
+
 import tensorflow as tf
 
 # Import MNIST data
@@ -119,6 +121,8 @@ with tf.Session() as sess:
     # Run the initializer
     sess.run(init)
 
+    start = time.time()
+
     for step in range(1, num_steps+1):
         batch_x, batch_y = mnist.train.next_batch(batch_size)
         # Run optimization op (backprop)
@@ -132,7 +136,9 @@ with tf.Session() as sess:
                   "{:.4f}".format(loss) + ", Training Accuracy= " + \
                   "{:.3f}".format(acc))
 
+    end = time.time()
     print("Optimization Finished!")
+    print("Elapsed training time = ",end-start)
 
     # Calculate accuracy for 256 MNIST test images
     print("Testing Accuracy:", \
