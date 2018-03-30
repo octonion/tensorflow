@@ -1,0 +1,39 @@
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-03-29 19:56:02.784742: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-03-29 19:56:02.785239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1355] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:03:00.0
+totalMemory: 11.78GiB freeMemory: 10.13GiB
+2018-03-29 19:56:02.785259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1434] Adding visible gpu devices: 0
+2018-03-29 19:56:03.026948: I tensorflow/core/common_runtime/gpu/gpu_device.cc:922] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-03-29 19:56:03.026998: I tensorflow/core/common_runtime/gpu/gpu_device.cc:928]      0 
+2018-03-29 19:56:03.027007: I tensorflow/core/common_runtime/gpu/gpu_device.cc:941] 0:   N 
+2018-03-29 19:56:03.027258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1052] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9789 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:03:00.0, compute capability: 7.0)
+Epoch: 0050 cost= 0.093486540 W= 0.3215526 b= 0.28379843
+Epoch: 0100 cost= 0.091576695 W= 0.31727284 b= 0.3145869
+Epoch: 0150 cost= 0.089887686 W= 0.31324762 b= 0.34354347
+Epoch: 0200 cost= 0.088393889 W= 0.30946186 b= 0.3707784
+Epoch: 0250 cost= 0.087072812 W= 0.30590114 b= 0.39639404
+Epoch: 0300 cost= 0.085904546 W= 0.30255234 b= 0.42048502
+Epoch: 0350 cost= 0.084871359 W= 0.29940262 b= 0.4431437
+Epoch: 0400 cost= 0.083957687 W= 0.29644027 b= 0.46445513
+Epoch: 0450 cost= 0.083149657 W= 0.293654 b= 0.48449948
+Epoch: 0500 cost= 0.082435206 W= 0.2910336 b= 0.5033503
+Epoch: 0550 cost= 0.081803411 W= 0.28856903 b= 0.52108014
+Epoch: 0600 cost= 0.081244692 W= 0.28625083 b= 0.5377568
+Epoch: 0650 cost= 0.080750667 W= 0.28407058 b= 0.55344135
+Epoch: 0700 cost= 0.080313846 W= 0.2820201 b= 0.5681929
+Epoch: 0750 cost= 0.079927586 W= 0.2800915 b= 0.5820674
+Epoch: 0800 cost= 0.079586096 W= 0.2782775 b= 0.5951164
+Epoch: 0850 cost= 0.079284161 W= 0.27657145 b= 0.60738975
+Epoch: 0900 cost= 0.079017214 W= 0.27496693 b= 0.61893255
+Epoch: 0950 cost= 0.078781225 W= 0.27345797 b= 0.6297881
+Epoch: 1000 cost= 0.078572594 W= 0.2720388 b= 0.63999766
+Elapsed training time =  12.1590468884
+Optimization Finished!
+Training cost= 0.07857259 W= 0.2720388 b= 0.63999766 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.07641969
+Absolute mean square loss difference: 0.0021529049
