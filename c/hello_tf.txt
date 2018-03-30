@@ -1,0 +1,1 @@
+Hello from TensorFlow C library version 1.6.0
