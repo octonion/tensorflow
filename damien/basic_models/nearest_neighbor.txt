@@ -1,243 +1,207 @@
-/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-  from ._conv import register_converters as _register_converters
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use the retry module or similar alternatives.
-WARNING:tensorflow:From nearest_neighbor.py:19: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please write your own downloading logic.
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please use tf.data to implement this functionality.
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please use tf.data to implement this functionality.
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please use tf.one_hot on tensors.
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-Instructions for updating:
-Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
-WARNING:tensorflow:From nearest_neighbor.py:33: arg_min (from tensorflow.python.ops.gen_math_ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use `argmin` instead
-2018-03-29 20:01:07.186325: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2018-03-29 20:01:07.187316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1355] Found device 0 with properties: 
-name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
-pciBusID: 0000:03:00.0
-totalMemory: 11.78GiB freeMemory: 10.13GiB
-2018-03-29 20:01:07.187337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1434] Adding visible gpu devices: 0
-2018-03-29 20:01:07.420225: I tensorflow/core/common_runtime/gpu/gpu_device.cc:922] Device interconnect StreamExecutor with strength 1 edge matrix:
-2018-03-29 20:01:07.420272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:928]      0 
-2018-03-29 20:01:07.420281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:941] 0:   N 
-2018-03-29 20:01:07.420524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1052] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9789 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:03:00.0, compute capability: 7.0)
 Extracting /tmp/data/train-images-idx3-ubyte.gz
 Extracting /tmp/data/train-labels-idx1-ubyte.gz
 Extracting /tmp/data/t10k-images-idx3-ubyte.gz
 Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
 Test 0 Prediction: 4 True Class: 4
-Test 1 Prediction: 3 True Class: 3
-Test 2 Prediction: 3 True Class: 3
-Test 3 Prediction: 7 True Class: 7
+Test 1 Prediction: 1 True Class: 1
+Test 2 Prediction: 1 True Class: 1
+Test 3 Prediction: 5 True Class: 5
 Test 4 Prediction: 6 True Class: 6
-Test 5 Prediction: 8 True Class: 8
+Test 5 Prediction: 4 True Class: 4
 Test 6 Prediction: 8 True Class: 8
-Test 7 Prediction: 1 True Class: 1
-Test 8 Prediction: 9 True Class: 9
-Test 9 Prediction: 6 True Class: 6
-Test 10 Prediction: 0 True Class: 0
-Test 11 Prediction: 8 True Class: 8
-Test 12 Prediction: 1 True Class: 1
-Test 13 Prediction: 0 True Class: 6
-Test 14 Prediction: 9 True Class: 9
+Test 7 Prediction: 7 True Class: 7
+Test 8 Prediction: 6 True Class: 6
+Test 9 Prediction: 0 True Class: 2
+Test 10 Prediction: 2 True Class: 2
+Test 11 Prediction: 7 True Class: 7
+Test 12 Prediction: 3 True Class: 8
+Test 13 Prediction: 7 True Class: 7
+Test 14 Prediction: 6 True Class: 6
 Test 15 Prediction: 8 True Class: 8
-Test 16 Prediction: 6 True Class: 6
+Test 16 Prediction: 8 True Class: 8
 Test 17 Prediction: 0 True Class: 0
-Test 18 Prediction: 1 True Class: 1
-Test 19 Prediction: 5 True Class: 5
-Test 20 Prediction: 6 True Class: 6
-Test 21 Prediction: 8 True Class: 8
-Test 22 Prediction: 4 True Class: 4
-Test 23 Prediction: 6 True Class: 6
-Test 24 Prediction: 3 True Class: 3
-Test 25 Prediction: 2 True Class: 2
-Test 26 Prediction: 1 True Class: 1
-Test 27 Prediction: 1 True Class: 1
-Test 28 Prediction: 2 True Class: 2
-Test 29 Prediction: 4 True Class: 4
+Test 18 Prediction: 6 True Class: 6
+Test 19 Prediction: 9 True Class: 9
+Test 20 Prediction: 4 True Class: 4
+Test 21 Prediction: 9 True Class: 9
+Test 22 Prediction: 0 True Class: 0
+Test 23 Prediction: 9 True Class: 9
+Test 24 Prediction: 1 True Class: 1
+Test 25 Prediction: 6 True Class: 6
+Test 26 Prediction: 4 True Class: 9
+Test 27 Prediction: 6 True Class: 6
+Test 28 Prediction: 7 True Class: 7
+Test 29 Prediction: 8 True Class: 8
 Test 30 Prediction: 1 True Class: 1
-Test 31 Prediction: 8 True Class: 8
-Test 32 Prediction: 3 True Class: 3
-Test 33 Prediction: 4 True Class: 4
-Test 34 Prediction: 9 True Class: 9
-Test 35 Prediction: 6 True Class: 6
-Test 36 Prediction: 9 True Class: 9
-Test 37 Prediction: 3 True Class: 3
+Test 31 Prediction: 6 True Class: 6
+Test 32 Prediction: 1 True Class: 1
+Test 33 Prediction: 9 True Class: 8
+Test 34 Prediction: 9 True Class: 8
+Test 35 Prediction: 8 True Class: 8
+Test 36 Prediction: 7 True Class: 7
+Test 37 Prediction: 7 True Class: 7
 Test 38 Prediction: 6 True Class: 6
-Test 39 Prediction: 6 True Class: 6
-Test 40 Prediction: 9 True Class: 9
-Test 41 Prediction: 8 True Class: 8
+Test 39 Prediction: 2 True Class: 2
+Test 40 Prediction: 4 True Class: 4
+Test 41 Prediction: 5 True Class: 5
 Test 42 Prediction: 6 True Class: 6
-Test 43 Prediction: 6 True Class: 6
-Test 44 Prediction: 2 True Class: 2
-Test 45 Prediction: 3 True Class: 9
-Test 46 Prediction: 5 True Class: 5
-Test 47 Prediction: 9 True Class: 9
-Test 48 Prediction: 5 True Class: 5
-Test 49 Prediction: 8 True Class: 8
-Test 50 Prediction: 1 True Class: 1
-Test 51 Prediction: 7 True Class: 7
-Test 52 Prediction: 4 True Class: 4
-Test 53 Prediction: 0 True Class: 0
-Test 54 Prediction: 6 True Class: 6
-Test 55 Prediction: 6 True Class: 6
-Test 56 Prediction: 1 True Class: 1
-Test 57 Prediction: 6 True Class: 6
-Test 58 Prediction: 9 True Class: 4
-Test 59 Prediction: 1 True Class: 1
-Test 60 Prediction: 4 True Class: 4
-Test 61 Prediction: 8 True Class: 4
-Test 62 Prediction: 8 True Class: 8
-Test 63 Prediction: 8 True Class: 8
-Test 64 Prediction: 2 True Class: 8
-Test 65 Prediction: 0 True Class: 0
-Test 66 Prediction: 7 True Class: 7
-Test 67 Prediction: 3 True Class: 3
-Test 68 Prediction: 8 True Class: 5
-Test 69 Prediction: 9 True Class: 9
-Test 70 Prediction: 9 True Class: 9
-Test 71 Prediction: 9 True Class: 4
-Test 72 Prediction: 1 True Class: 7
-Test 73 Prediction: 4 True Class: 4
-Test 74 Prediction: 1 True Class: 1
-Test 75 Prediction: 0 True Class: 0
-Test 76 Prediction: 9 True Class: 9
+Test 43 Prediction: 1 True Class: 1
+Test 44 Prediction: 5 True Class: 5
+Test 45 Prediction: 7 True Class: 7
+Test 46 Prediction: 2 True Class: 2
+Test 47 Prediction: 1 True Class: 1
+Test 48 Prediction: 3 True Class: 3
+Test 49 Prediction: 3 True Class: 3
+Test 50 Prediction: 3 True Class: 3
+Test 51 Prediction: 9 True Class: 9
+Test 52 Prediction: 2 True Class: 2
+Test 53 Prediction: 5 True Class: 5
+Test 54 Prediction: 0 True Class: 0
+Test 55 Prediction: 3 True Class: 3
+Test 56 Prediction: 3 True Class: 5
+Test 57 Prediction: 1 True Class: 1
+Test 58 Prediction: 1 True Class: 1
+Test 59 Prediction: 0 True Class: 0
+Test 60 Prediction: 0 True Class: 0
+Test 61 Prediction: 6 True Class: 6
+Test 62 Prediction: 2 True Class: 2
+Test 63 Prediction: 0 True Class: 0
+Test 64 Prediction: 9 True Class: 9
+Test 65 Prediction: 5 True Class: 9
+Test 66 Prediction: 5 True Class: 5
+Test 67 Prediction: 6 True Class: 6
+Test 68 Prediction: 1 True Class: 1
+Test 69 Prediction: 0 True Class: 0
+Test 70 Prediction: 3 True Class: 3
+Test 71 Prediction: 8 True Class: 8
+Test 72 Prediction: 7 True Class: 7
+Test 73 Prediction: 2 True Class: 2
+Test 74 Prediction: 4 True Class: 4
+Test 75 Prediction: 9 True Class: 9
+Test 76 Prediction: 7 True Class: 7
 Test 77 Prediction: 6 True Class: 6
-Test 78 Prediction: 2 True Class: 2
-Test 79 Prediction: 0 True Class: 0
-Test 80 Prediction: 0 True Class: 0
-Test 81 Prediction: 4 True Class: 4
-Test 82 Prediction: 2 True Class: 2
-Test 83 Prediction: 6 True Class: 6
-Test 84 Prediction: 1 True Class: 1
+Test 78 Prediction: 0 True Class: 0
+Test 79 Prediction: 2 True Class: 2
+Test 80 Prediction: 6 True Class: 6
+Test 81 Prediction: 3 True Class: 3
+Test 82 Prediction: 3 True Class: 3
+Test 83 Prediction: 0 True Class: 0
+Test 84 Prediction: 6 True Class: 6
 Test 85 Prediction: 5 True Class: 5
-Test 86 Prediction: 9 True Class: 9
-Test 87 Prediction: 7 True Class: 7
+Test 86 Prediction: 0 True Class: 0
+Test 87 Prediction: 6 True Class: 6
 Test 88 Prediction: 5 True Class: 5
-Test 89 Prediction: 9 True Class: 9
-Test 90 Prediction: 2 True Class: 2
-Test 91 Prediction: 7 True Class: 7
-Test 92 Prediction: 5 True Class: 5
-Test 93 Prediction: 9 True Class: 9
-Test 94 Prediction: 7 True Class: 7
-Test 95 Prediction: 8 True Class: 8
-Test 96 Prediction: 2 True Class: 2
-Test 97 Prediction: 3 True Class: 3
-Test 98 Prediction: 4 True Class: 4
+Test 89 Prediction: 3 True Class: 3
+Test 90 Prediction: 0 True Class: 0
+Test 91 Prediction: 4 True Class: 4
+Test 92 Prediction: 1 True Class: 1
+Test 93 Prediction: 7 True Class: 7
+Test 94 Prediction: 0 True Class: 0
+Test 95 Prediction: 5 True Class: 5
+Test 96 Prediction: 1 True Class: 1
+Test 97 Prediction: 7 True Class: 7
+Test 98 Prediction: 9 True Class: 9
 Test 99 Prediction: 6 True Class: 6
-Test 100 Prediction: 1 True Class: 1
+Test 100 Prediction: 5 True Class: 5
 Test 101 Prediction: 7 True Class: 7
-Test 102 Prediction: 0 True Class: 0
-Test 103 Prediction: 1 True Class: 7
-Test 104 Prediction: 9 True Class: 9
-Test 105 Prediction: 7 True Class: 7
-Test 106 Prediction: 4 True Class: 4
-Test 107 Prediction: 5 True Class: 5
-Test 108 Prediction: 3 True Class: 3
-Test 109 Prediction: 4 True Class: 4
-Test 110 Prediction: 2 True Class: 2
-Test 111 Prediction: 0 True Class: 0
-Test 112 Prediction: 1 True Class: 1
-Test 113 Prediction: 0 True Class: 0
-Test 114 Prediction: 9 True Class: 9
-Test 115 Prediction: 2 True Class: 2
-Test 116 Prediction: 4 True Class: 4
+Test 102 Prediction: 9 True Class: 9
+Test 103 Prediction: 6 True Class: 6
+Test 104 Prediction: 1 True Class: 1
+Test 105 Prediction: 6 True Class: 6
+Test 106 Prediction: 7 True Class: 7
+Test 107 Prediction: 9 True Class: 9
+Test 108 Prediction: 0 True Class: 0
+Test 109 Prediction: 0 True Class: 0
+Test 110 Prediction: 7 True Class: 7
+Test 111 Prediction: 6 True Class: 6
+Test 112 Prediction: 0 True Class: 0
+Test 113 Prediction: 9 True Class: 9
+Test 114 Prediction: 1 True Class: 6
+Test 115 Prediction: 1 True Class: 1
+Test 116 Prediction: 6 True Class: 6
 Test 117 Prediction: 6 True Class: 6
-Test 118 Prediction: 4 True Class: 4
-Test 119 Prediction: 2 True Class: 2
-Test 120 Prediction: 1 True Class: 1
-Test 121 Prediction: 2 True Class: 2
-Test 122 Prediction: 5 True Class: 5
-Test 123 Prediction: 5 True Class: 5
-Test 124 Prediction: 7 True Class: 7
-Test 125 Prediction: 5 True Class: 5
-Test 126 Prediction: 0 True Class: 0
-Test 127 Prediction: 7 True Class: 7
-Test 128 Prediction: 6 True Class: 5
+Test 118 Prediction: 6 True Class: 6
+Test 119 Prediction: 4 True Class: 4
+Test 120 Prediction: 9 True Class: 9
+Test 121 Prediction: 6 True Class: 2
+Test 122 Prediction: 9 True Class: 9
+Test 123 Prediction: 8 True Class: 8
+Test 124 Prediction: 2 True Class: 2
+Test 125 Prediction: 8 True Class: 8
+Test 126 Prediction: 8 True Class: 8
+Test 127 Prediction: 4 True Class: 4
+Test 128 Prediction: 6 True Class: 6
 Test 129 Prediction: 5 True Class: 5
-Test 130 Prediction: 6 True Class: 6
-Test 131 Prediction: 6 True Class: 6
-Test 132 Prediction: 2 True Class: 2
-Test 133 Prediction: 1 True Class: 1
-Test 134 Prediction: 6 True Class: 6
-Test 135 Prediction: 3 True Class: 3
-Test 136 Prediction: 0 True Class: 0
-Test 137 Prediction: 0 True Class: 0
-Test 138 Prediction: 3 True Class: 3
-Test 139 Prediction: 7 True Class: 3
+Test 130 Prediction: 1 True Class: 1
+Test 131 Prediction: 4 True Class: 4
+Test 132 Prediction: 6 True Class: 6
+Test 133 Prediction: 9 True Class: 9
+Test 134 Prediction: 3 True Class: 3
+Test 135 Prediction: 7 True Class: 7
+Test 136 Prediction: 7 True Class: 7
+Test 137 Prediction: 7 True Class: 7
+Test 138 Prediction: 4 True Class: 4
+Test 139 Prediction: 8 True Class: 8
 Test 140 Prediction: 8 True Class: 8
-Test 141 Prediction: 8 True Class: 8
-Test 142 Prediction: 2 True Class: 2
-Test 143 Prediction: 3 True Class: 3
-Test 144 Prediction: 1 True Class: 1
-Test 145 Prediction: 9 True Class: 9
+Test 141 Prediction: 1 True Class: 1
+Test 142 Prediction: 0 True Class: 0
+Test 143 Prediction: 4 True Class: 4
+Test 144 Prediction: 7 True Class: 7
+Test 145 Prediction: 5 True Class: 5
 Test 146 Prediction: 6 True Class: 6
-Test 147 Prediction: 0 True Class: 0
-Test 148 Prediction: 9 True Class: 9
+Test 147 Prediction: 3 True Class: 8
+Test 148 Prediction: 2 True Class: 2
 Test 149 Prediction: 1 True Class: 1
-Test 150 Prediction: 7 True Class: 7
-Test 151 Prediction: 1 True Class: 1
-Test 152 Prediction: 9 True Class: 9
-Test 153 Prediction: 1 True Class: 1
-Test 154 Prediction: 9 True Class: 4
-Test 155 Prediction: 9 True Class: 9
-Test 156 Prediction: 1 True Class: 1
+Test 150 Prediction: 5 True Class: 5
+Test 151 Prediction: 4 True Class: 4
+Test 152 Prediction: 6 True Class: 5
+Test 153 Prediction: 4 True Class: 4
+Test 154 Prediction: 8 True Class: 5
+Test 155 Prediction: 4 True Class: 5
+Test 156 Prediction: 0 True Class: 0
 Test 157 Prediction: 1 True Class: 1
-Test 158 Prediction: 2 True Class: 2
-Test 159 Prediction: 6 True Class: 6
-Test 160 Prediction: 9 True Class: 9
-Test 161 Prediction: 8 True Class: 8
-Test 162 Prediction: 3 True Class: 3
-Test 163 Prediction: 8 True Class: 8
+Test 158 Prediction: 0 True Class: 0
+Test 159 Prediction: 2 True Class: 2
+Test 160 Prediction: 3 True Class: 3
+Test 161 Prediction: 0 True Class: 0
+Test 162 Prediction: 9 True Class: 9
+Test 163 Prediction: 2 True Class: 2
 Test 164 Prediction: 3 True Class: 3
-Test 165 Prediction: 5 True Class: 5
-Test 166 Prediction: 9 True Class: 9
-Test 167 Prediction: 4 True Class: 4
-Test 168 Prediction: 0 True Class: 0
-Test 169 Prediction: 3 True Class: 3
-Test 170 Prediction: 0 True Class: 0
-Test 171 Prediction: 0 True Class: 0
-Test 172 Prediction: 1 True Class: 1
+Test 165 Prediction: 4 True Class: 4
+Test 166 Prediction: 4 True Class: 4
+Test 167 Prediction: 7 True Class: 7
+Test 168 Prediction: 2 True Class: 2
+Test 169 Prediction: 8 True Class: 8
+Test 170 Prediction: 4 True Class: 4
+Test 171 Prediction: 8 True Class: 8
+Test 172 Prediction: 4 True Class: 4
 Test 173 Prediction: 1 True Class: 1
-Test 174 Prediction: 3 True Class: 3
-Test 175 Prediction: 0 True Class: 8
-Test 176 Prediction: 3 True Class: 3
-Test 177 Prediction: 3 True Class: 3
-Test 178 Prediction: 0 True Class: 0
-Test 179 Prediction: 8 True Class: 8
-Test 180 Prediction: 4 True Class: 4
-Test 181 Prediction: 8 True Class: 8
-Test 182 Prediction: 5 True Class: 5
-Test 183 Prediction: 4 True Class: 4
-Test 184 Prediction: 8 True Class: 8
-Test 185 Prediction: 6 True Class: 6
-Test 186 Prediction: 9 True Class: 9
-Test 187 Prediction: 0 True Class: 0
-Test 188 Prediction: 6 True Class: 6
-Test 189 Prediction: 8 True Class: 8
-Test 190 Prediction: 8 True Class: 8
-Test 191 Prediction: 0 True Class: 0
-Test 192 Prediction: 8 True Class: 8
-Test 193 Prediction: 1 True Class: 1
-Test 194 Prediction: 7 True Class: 7
-Test 195 Prediction: 2 True Class: 0
-Test 196 Prediction: 6 True Class: 6
-Test 197 Prediction: 3 True Class: 5
-Test 198 Prediction: 4 True Class: 4
-Test 199 Prediction: 8 True Class: 8
-Elapsed training time =  2.65910696983
+Test 174 Prediction: 7 True Class: 7
+Test 175 Prediction: 3 True Class: 3
+Test 176 Prediction: 5 True Class: 5
+Test 177 Prediction: 5 True Class: 5
+Test 178 Prediction: 5 True Class: 5
+Test 179 Prediction: 4 True Class: 4
+Test 180 Prediction: 2 True Class: 2
+Test 181 Prediction: 4 True Class: 4
+Test 182 Prediction: 2 True Class: 2
+Test 183 Prediction: 3 True Class: 5
+Test 184 Prediction: 0 True Class: 0
+Test 185 Prediction: 4 True Class: 4
+Test 186 Prediction: 1 True Class: 1
+Test 187 Prediction: 8 True Class: 8
+Test 188 Prediction: 3 True Class: 3
+Test 189 Prediction: 4 True Class: 4
+Test 190 Prediction: 4 True Class: 4
+Test 191 Prediction: 3 True Class: 3
+Test 192 Prediction: 7 True Class: 7
+Test 193 Prediction: 2 True Class: 2
+Test 194 Prediction: 1 True Class: 1
+Test 195 Prediction: 0 True Class: 0
+Test 196 Prediction: 9 True Class: 9
+Test 197 Prediction: 4 True Class: 4
+Test 198 Prediction: 8 True Class: 8
+Test 199 Prediction: 2 True Class: 2
+Elapsed training time =  2.62271285057
 Done!
-Accuracy: 0.925
+Accuracy: 0.93

@@ -1,28 +1,13 @@
-/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-  from ._conv import register_converters as _register_converters
-WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use the retry module or similar alternatives.
-2018-03-29 20:09:54.498644: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2018-03-29 20:09:54.499142: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1355] Found device 0 with properties: 
-name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
-pciBusID: 0000:03:00.0
-totalMemory: 11.78GiB freeMemory: 10.14GiB
-2018-03-29 20:09:54.499161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1434] Adding visible gpu devices: 0
-2018-03-29 20:09:54.739725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:922] Device interconnect StreamExecutor with strength 1 edge matrix:
-2018-03-29 20:09:54.739768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:928]      0 
-2018-03-29 20:09:54.739777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:941] 0:   N 
-2018-03-29 20:09:54.740018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1052] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9797 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:03:00.0, compute capability: 7.0)
-Initial cost= 11.021302223 W= 1.0152001 b= 0.36606053
-Epoch: 0001 cost= 3.380383015 W= 0.7040322 b= 0.32282546
-Epoch: 0100 cost= 0.090561375 W= 0.31783035 b= 0.32950547
-Epoch: 0200 cost= 0.087621376 W= 0.31025955 b= 0.38317907
-Epoch: 0300 cost= 0.085315414 W= 0.30355462 b= 0.43071404
-Epoch: 0400 cost= 0.083506756 W= 0.29761657 b= 0.47281227
-Epoch: 0500 cost= 0.082088158 W= 0.29235762 b= 0.5100957
-Epoch: 0600 cost= 0.080975510 W= 0.28770015 b= 0.54311496
-Epoch: 0700 cost= 0.080102801 W= 0.2835754 b= 0.5723579
-Epoch: 0800 cost= 0.079418324 W= 0.27992234 b= 0.5982563
-Epoch: 0900 cost= 0.078881435 W= 0.2766871 b= 0.62119263
-Epoch: 1000 cost= 0.078460336 W= 0.2738219 b= 0.6415057
-Elapsed training time =  1.59622001648
+Initial cost= 67.025062561 W= -1.4081106 b= 0.23802707
+Epoch: 0001 cost= 20.214916229 W= -0.6382084 b= 0.34702036
+Epoch: 0100 cost= 0.081909359 W= 0.29164574 b= 0.51514274
+Epoch: 0200 cost= 0.080835268 W= 0.28706965 b= 0.54758495
+Epoch: 0300 cost= 0.079992794 W= 0.28301695 b= 0.5763168
+Epoch: 0400 cost= 0.079332031 W= 0.27942783 b= 0.6017623
+Epoch: 0500 cost= 0.078813754 W= 0.2762491 b= 0.62429786
+Epoch: 0600 cost= 0.078407243 W= 0.27343398 b= 0.6442558
+Epoch: 0700 cost= 0.078088418 W= 0.27094084 b= 0.6619311
+Epoch: 0800 cost= 0.077838331 W= 0.2687328 b= 0.67758524
+Epoch: 0900 cost= 0.077642202 W= 0.26677725 b= 0.69144917
+Epoch: 1000 cost= 0.077488348 W= 0.2650454 b= 0.70372707
+Elapsed training time =  1.63304495811
