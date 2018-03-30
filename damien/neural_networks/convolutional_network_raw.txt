@@ -1,0 +1,28 @@
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Step 1, Minibatch Loss= 76935.4453, Training Accuracy= 0.047
+Step 10, Minibatch Loss= 27692.2109, Training Accuracy= 0.188
+Step 20, Minibatch Loss= 11339.7324, Training Accuracy= 0.469
+Step 30, Minibatch Loss= 7891.9126, Training Accuracy= 0.578
+Step 40, Minibatch Loss= 3673.1992, Training Accuracy= 0.781
+Step 50, Minibatch Loss= 2882.8306, Training Accuracy= 0.828
+Step 60, Minibatch Loss= 3550.0225, Training Accuracy= 0.789
+Step 70, Minibatch Loss= 2666.2778, Training Accuracy= 0.836
+Step 80, Minibatch Loss= 3975.0649, Training Accuracy= 0.812
+Step 90, Minibatch Loss= 3467.6221, Training Accuracy= 0.844
+Step 100, Minibatch Loss= 1763.4722, Training Accuracy= 0.867
+Step 110, Minibatch Loss= 2223.0823, Training Accuracy= 0.875
+Step 120, Minibatch Loss= 3247.5479, Training Accuracy= 0.875
+Step 130, Minibatch Loss= 2504.3174, Training Accuracy= 0.875
+Step 140, Minibatch Loss= 680.4232, Training Accuracy= 0.945
+Step 150, Minibatch Loss= 885.5209, Training Accuracy= 0.938
+Step 160, Minibatch Loss= 1519.0055, Training Accuracy= 0.906
+Step 170, Minibatch Loss= 2443.9873, Training Accuracy= 0.914
+Step 180, Minibatch Loss= 1660.0691, Training Accuracy= 0.922
+Step 190, Minibatch Loss= 2181.2590, Training Accuracy= 0.875
+Step 200, Minibatch Loss= 217.9859, Training Accuracy= 0.977
+Optimization Finished!
+Elapsed training time =  2.18975114822
+Testing Accuracy: 0.91796875

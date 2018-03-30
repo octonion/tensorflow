@@ -1,0 +1,36 @@
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Step 1, Loss: 669.702454
+Step 1000, Loss: 178.773376
+Step 2000, Loss: 171.668579
+Step 3000, Loss: 166.512421
+Step 4000, Loss: 155.343811
+Step 5000, Loss: 155.997711
+Step 6000, Loss: 164.035995
+Step 7000, Loss: 159.349182
+Step 8000, Loss: 156.530884
+Step 9000, Loss: 164.847290
+Step 10000, Loss: 152.433334
+Step 11000, Loss: 165.365906
+Step 12000, Loss: 161.500961
+Step 13000, Loss: 151.734253
+Step 14000, Loss: 162.625397
+Step 15000, Loss: 156.161804
+Step 16000, Loss: 163.818359
+Step 17000, Loss: 144.260071
+Step 18000, Loss: 161.590683
+Step 19000, Loss: 151.554779
+Step 20000, Loss: 155.131012
+Step 21000, Loss: 152.241760
+Step 22000, Loss: 155.929794
+Step 23000, Loss: 144.142792
+Step 24000, Loss: 131.144684
+Step 25000, Loss: 160.720367
+Step 26000, Loss: 146.979553
+Step 27000, Loss: 156.856461
+Step 28000, Loss: 151.531143
+Step 29000, Loss: 160.252777
+Step 30000, Loss: 157.680344
+Elapsed training time =  91.3175280094

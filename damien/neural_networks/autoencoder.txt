@@ -1,0 +1,38 @@
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Step 1: Minibatch Loss: 0.442046
+Step 1000: Minibatch Loss: 0.147695
+Step 2000: Minibatch Loss: 0.127535
+Step 3000: Minibatch Loss: 0.118100
+Step 4000: Minibatch Loss: 0.115106
+Step 5000: Minibatch Loss: 0.109394
+Step 6000: Minibatch Loss: 0.103931
+Step 7000: Minibatch Loss: 0.098573
+Step 8000: Minibatch Loss: 0.098117
+Step 9000: Minibatch Loss: 0.093127
+Step 10000: Minibatch Loss: 0.092670
+Step 11000: Minibatch Loss: 0.091029
+Step 12000: Minibatch Loss: 0.087224
+Step 13000: Minibatch Loss: 0.083259
+Step 14000: Minibatch Loss: 0.082894
+Step 15000: Minibatch Loss: 0.079746
+Step 16000: Minibatch Loss: 0.080036
+Step 17000: Minibatch Loss: 0.077494
+Step 18000: Minibatch Loss: 0.079341
+Step 19000: Minibatch Loss: 0.074027
+Step 20000: Minibatch Loss: 0.073523
+Step 21000: Minibatch Loss: 0.071879
+Step 22000: Minibatch Loss: 0.070882
+Step 23000: Minibatch Loss: 0.069724
+Step 24000: Minibatch Loss: 0.070120
+Step 25000: Minibatch Loss: 0.066628
+Step 26000: Minibatch Loss: 0.064207
+Step 27000: Minibatch Loss: 0.063934
+Step 28000: Minibatch Loss: 0.064648
+Step 29000: Minibatch Loss: 0.063357
+Step 30000: Minibatch Loss: 0.062749
+Elapsed training time =  89.1282289028
+Original Images
+Reconstructed Images

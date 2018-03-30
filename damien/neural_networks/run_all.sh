@@ -11,5 +11,4 @@ python neural_network.py > neural_network.txt
 python neural_network_eager_api.py > neural_network_eager_api.txt
 python neural_network_raw.py > neural_network_raw.txt
 python recurrent_network.py > recurrent_network.txt
-python run_all.sh > run_all.txt
 python variational_autoencoder.py > variational_autoencoder.txt

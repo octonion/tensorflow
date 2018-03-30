@@ -1,0 +1,13 @@
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Step 1, Minibatch Loss= 13690.9102, Training Accuracy= 0.219
+Step 100, Minibatch Loss= 200.5961, Training Accuracy= 0.844
+Step 200, Minibatch Loss= 94.0317, Training Accuracy= 0.859
+Step 300, Minibatch Loss= 53.7498, Training Accuracy= 0.914
+Step 400, Minibatch Loss= 54.5056, Training Accuracy= 0.883
+Step 500, Minibatch Loss= 31.9984, Training Accuracy= 0.906
+Optimization Finished!
+Elapsed training time =  1.55938005447
+Testing Accuracy: 0.8506
